@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/developer-portfolio/static/css/main.30034ac9.chunk.css",
-    "main.js": "/developer-portfolio/static/js/main.3e735110.chunk.js",
-    "main.js.map": "/developer-portfolio/static/js/main.3e735110.chunk.js.map",
+    "main.js": "/developer-portfolio/static/js/main.82733b67.chunk.js",
+    "main.js.map": "/developer-portfolio/static/js/main.82733b67.chunk.js.map",
     "runtime-main.js": "/developer-portfolio/static/js/runtime-main.d3ee2b7b.js",
     "runtime-main.js.map": "/developer-portfolio/static/js/runtime-main.d3ee2b7b.js.map",
     "static/css/2.f44803aa.chunk.css": "/developer-portfolio/static/css/2.f44803aa.chunk.css",
@@ -76,6 +76,7 @@
     "static/media/figma.cc8e1116.svg": "/developer-portfolio/static/media/figma.cc8e1116.svg",
     "static/media/firebase.1aa395c8.svg": "/developer-portfolio/static/media/firebase.1aa395c8.svg",
     "static/media/five.3fc9b49e.svg": "/developer-portfolio/static/media/five.3fc9b49e.svg",
+    "static/media/flask.237026cc.svg": "/developer-portfolio/static/media/flask.237026cc.svg",
     "static/media/flutter.a87a000d.svg": "/developer-portfolio/static/media/flutter.a87a000d.svg",
     "static/media/four.bd70304d.svg": "/developer-portfolio/static/media/four.bd70304d.svg",
     "static/media/gcp.89993b8e.svg": "/developer-portfolio/static/media/gcp.89993b8e.svg",
@@ -95,8 +96,11 @@
     "static/media/java.e9ccff93.svg": "/developer-portfolio/static/media/java.e9ccff93.svg",
     "static/media/javascript.f84ec710.svg": "/developer-portfolio/static/media/javascript.f84ec710.svg",
     "static/media/julia.2f794baf.svg": "/developer-portfolio/static/media/julia.2f794baf.svg",
+    "static/media/kafka.3714adde.svg": "/developer-portfolio/static/media/kafka.3714adde.svg",
     "static/media/kotlin.bf3c189f.svg": "/developer-portfolio/static/media/kotlin.bf3c189f.svg",
+    "static/media/kubernetes.848acf3b.svg": "/developer-portfolio/static/media/kubernetes.848acf3b.svg",
     "static/media/lightroom.424c8312.svg": "/developer-portfolio/static/media/lightroom.424c8312.svg",
+    "static/media/linux.cee51beb.svg": "/developer-portfolio/static/media/linux.cee51beb.svg",
     "static/media/markdown.6fca45ee.svg": "/developer-portfolio/static/media/markdown.6fca45ee.svg",
     "static/media/materialui.d7f5c38f.svg": "/developer-portfolio/static/media/materialui.d7f5c38f.svg",
     "static/media/matlab.98ad4951.svg": "/developer-portfolio/static/media/matlab.98ad4951.svg",
@@ -106,6 +110,7 @@
     "static/media/mysql.61d16d64.svg": "/developer-portfolio/static/media/mysql.61d16d64.svg",
     "static/media/nextJS.330fb71c.svg": "/developer-portfolio/static/media/nextJS.330fb71c.svg",
     "static/media/nginx.63e0789f.svg": "/developer-portfolio/static/media/nginx.63e0789f.svg",
+    "static/media/nodejs.31b5d1c9.svg": "/developer-portfolio/static/media/nodejs.31b5d1c9.svg",
     "static/media/numpy.91d932ca.svg": "/developer-portfolio/static/media/numpy.91d932ca.svg",
     "static/media/nuxtJS.6dcfb7a9.svg": "/developer-portfolio/static/media/nuxtJS.6dcfb7a9.svg",
     "static/media/one.9ac983ad.svg": "/developer-portfolio/static/media/one.9ac983ad.svg",
@@ -156,6 +161,6 @@
     "static/css/2.f44803aa.chunk.css",
     "static/js/2.ce2a7c6a.chunk.js",
     "static/css/main.30034ac9.chunk.css",
-    "static/js/main.3e735110.chunk.js"
+    "static/js/main.82733b67.chunk.js"
   ]
 }
