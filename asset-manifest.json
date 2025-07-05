@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/developer-portfolio/static/css/main.634594f6.chunk.css",
-    "main.js": "/developer-portfolio/static/js/main.02ac2d0a.chunk.js",
-    "main.js.map": "/developer-portfolio/static/js/main.02ac2d0a.chunk.js.map",
+    "main.js": "/developer-portfolio/static/js/main.4e04b46a.chunk.js",
+    "main.js.map": "/developer-portfolio/static/js/main.4e04b46a.chunk.js.map",
     "runtime-main.js": "/developer-portfolio/static/js/runtime-main.07e8b500.js",
     "runtime-main.js.map": "/developer-portfolio/static/js/runtime-main.07e8b500.js.map",
     "static/css/2.f44803aa.chunk.css": "/developer-portfolio/static/css/2.f44803aa.chunk.css",
@@ -15,7 +15,7 @@
     "static/css/main.634594f6.chunk.css.map": "/developer-portfolio/static/css/main.634594f6.chunk.css.map",
     "static/js/2.c378fae2.chunk.js.LICENSE.txt": "/developer-portfolio/static/js/2.c378fae2.chunk.js.LICENSE.txt",
     "static/media/index.css": "/developer-portfolio/static/media/BestermindRegular.e58a1922.ttf",
-    "static/media/Nikhil_Murali_Resume.d939f625.pdf": "/developer-portfolio/static/media/Nikhil_Murali_Resume.d939f625.pdf",
+    "static/media/Nikhil_Murali_Resume.91df8718.pdf": "/developer-portfolio/static/media/Nikhil_Murali_Resume.91df8718.pdf",
     "static/media/adobe-xd.fa7a22d2.svg": "/developer-portfolio/static/media/adobe-xd.fa7a22d2.svg",
     "static/media/adobeaudition.dd56aeda.svg": "/developer-portfolio/static/media/adobeaudition.dd56aeda.svg",
     "static/media/after-effects.16f048ca.svg": "/developer-portfolio/static/media/after-effects.16f048ca.svg",
@@ -162,6 +162,6 @@
     "static/css/2.f44803aa.chunk.css",
     "static/js/2.c378fae2.chunk.js",
     "static/css/main.634594f6.chunk.css",
-    "static/js/main.02ac2d0a.chunk.js"
+    "static/js/main.4e04b46a.chunk.js"
   ]
 }
