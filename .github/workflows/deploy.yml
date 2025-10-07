@@ -2,9 +2,7 @@ name: Build and Deploy Portfolio
 
 on:
   push:
-    branches: [ master, main ]
-  pull_request:
-    branches: [ master, main ]
+    branches: [ master ]
   workflow_dispatch:
 
 jobs:
@@ -18,20 +16,19 @@ jobs:
     - name: Setup Node.js
       uses: actions/setup-node@v4
       with:
-        node-version: '16'
+        node-version: '18'
         cache: 'npm'
         
     - name: Install dependencies
-      run: npm ci
+      run: npm install
       
     - name: Build project
-      run: npm run build
-      env:
-        NODE_OPTIONS: --openssl-legacy-provider
+      run: |
+        export NODE_OPTIONS=--openssl-legacy-provider
+        npm run build
         
-    - name: Deploy to developer-portfolio repository (gh-pages)
+    - name: Deploy to GitHub Pages (gh-pages branch)
       uses: peaceiris/actions-gh-pages@v3
-      if: github.ref == 'refs/heads/master'
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         publish_dir: ./build
@@ -39,7 +36,7 @@ jobs:
         
     - name: Deploy to nikhilmurali32.github.io repository
       uses: peaceiris/actions-gh-pages@v3
-      if: github.ref == 'refs/heads/master'
+      if: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
       with:
         personal_token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
         external_repository: nikhilmurali32/nikhilmurali32.github.io
