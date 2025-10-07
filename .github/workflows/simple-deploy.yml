@@ -18,7 +18,7 @@ jobs:
           
       - name: Install and Build
         run: |
-          npm install
+          npm install --legacy-peer-deps --force
           export NODE_OPTIONS=--openssl-legacy-provider
           npm run build
           
