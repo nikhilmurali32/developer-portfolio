@@ -16,11 +16,13 @@ jobs:
         with:
           node-version: '18'
           
-      - name: Install and Build
-        run: |
-          npm install --legacy-peer-deps --force
-          export NODE_OPTIONS=--openssl-legacy-provider
-          npm run build
+      - name: Install dependencies
+        run: npm install --legacy-peer-deps --force
+        
+      - name: Build project
+        run: npm run build
+        env:
+          NODE_OPTIONS: --openssl-legacy-provider
           
       - name: Deploy to gh-pages
         uses: peaceiris/actions-gh-pages@v3
