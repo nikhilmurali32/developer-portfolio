@@ -29,9 +29,9 @@ jobs:
         npm install --legacy-peer-deps --force
         
     - name: Build
-      run: npm run build
+      run: |
+        NODE_OPTIONS="--openssl-legacy-provider --max-old-space-size=4096" npm run build:ci
       env:
-        NODE_OPTIONS: --openssl-legacy-provider --max-old-space-size=4096
         CI: false
         
     - name: Deploy to GitHub Pages

@@ -31,9 +31,7 @@ jobs:
         run: npm install --legacy-peer-deps --force
         
       - name: Build
-        run: npm run build
-        env:
-          NODE_OPTIONS: --openssl-legacy-provider
+        run: NODE_OPTIONS="--openssl-legacy-provider" npm run build:ci
           
       - name: Setup Pages
         uses: actions/configure-pages@v4
