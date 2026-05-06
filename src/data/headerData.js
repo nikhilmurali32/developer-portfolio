@@ -4,10 +4,10 @@ import profileImage from '../assets/png/portfolio-pic.JPG'
 export const headerData = {
     name: 'Nikhil Murali',
     // title: "AI Engineer & Software Developer",
-    desciption:"Senior Software Engineer turning complex problems into smart and scalable solutions",
+    desciption:"Backend at heart. Full-stack in practice. AI by obsession.",
     descriptionParts: {
-        highlight: "Senior Software Engineer",
-        normal: " turning complex problems into smart and scalable solutions."
+        highlight: "Backend at heart.",
+        normal: " Full-stack in practice. AI by obsession."
     },
     image: profileImage,
     resumePdf: resume
